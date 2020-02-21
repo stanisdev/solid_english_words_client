@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add new word</title>
+  <link rel="stylesheet" href="https://bootswatch.com/4/pulse/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+    <div class="container">
+      <a href="/admin" class="navbar-brand">Admin panel</a>
+    </div>
+  </div>
+
+  <!--Main container -->
+  <div class="container" style="margin-top: 110px;">
+  
+    <div style="width: 60%;">
+
+      <legend>New word</legend><br/>
+
+      <!-- English -->
+      <div class="form-group">
+        <label for="exampleInputEmail1">English word</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter a word">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+
+      <!-- Translation -->
+      <div class="form-group">
+        <label for="exampleInputPassword1">Translation</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter translation">
+      </div>
+
+      <!-- PS -->
+      <div class="form-group">
+        <label for="exampleSelect1">Part of speech</label>
+        <select class="form-control" id="exampleSelect1">
+          <option>noun</option>
+          <option>verb</option>
+          <option>adjective</option>
+          <option>adverb</option>
+          <option>conjunction</option>
+          <option>preposition</option>
+          <option>pronoun</option>
+          <option>interjection</option>
+        </select>
+      </div>
+
+      <!-- Transcription -->
+      <div class="form-group">
+        <label for="exampleInputPassword1">Transcription</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter transcription">
+      </div>
+
+      <!-- Synonyms -->
+      <div class="form-group">
+        <label for="exampleInputPassword1">Synonyms</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter synonyms">
+      </div>
+
+      <!-- General description -->
+      <div class="form-group">
+        <label for="exampleTextarea">General description</label>
+        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+      </div>
+
+      <!-- Pronunciation -->
+      <div class="form-group">
+        <label for="exampleInputPassword1">Pronunciation</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter URL to mp3 file">
+      </div>
+
+      <hr>
+
+      <!-- Explanation -->
+      <div class="form-group">
+        <h5>Explanation</h5>
+        <br>
+
+        <div class="form-group">
+          <label for="exampleInputPassword1">Use case</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter use case">
+        </div>
+
+        <div class="form-group">
+          <label for="exampleTextarea">Examples</label>
+          <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+        </div>
+
+        <button type="button" class="btn btn-primary">Add</button>
+      </div>
+
+      <hr>
+      <div class="form-group">
+        <label for="exampleTextarea">General examples</label>
+        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+      </div>
+
+      <hr>
+      <h5>Images</h5><br>
+      <div class="form-group">
+        <label for="exampleInputFile">File input</label>
+        <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+        <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+      </div>
+
+      
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <br><br><br>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
