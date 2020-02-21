@@ -1,0 +1,31 @@
+{
+  "name": "solid_english_words_client",
+  "version": "0.0.1",
+  "description": "Web client for app to memorize English words",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "NODE_ENV=local nodemon app.js -e html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanisdev/solid_english_words_client.git"
+  },
+  "keywords": [
+    "english",
+    "web"
+  ],
+  "author": "Stanislav Zavalishin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stanisdev/solid_english_words_client/issues"
+  },
+  "homepage": "https://github.com/stanisdev/solid_english_words_client#readme",
+  "dependencies": {
+    "express": "4.17.1",
+    "nunjucks": "3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
