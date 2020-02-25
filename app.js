@@ -10,6 +10,8 @@ nunjucks.configure('views', {
   express: app
 });
 
+app.use(express.static('public'));
+
 app.get('/', function(req, res) {
   res.render('main/index.html');
 });
